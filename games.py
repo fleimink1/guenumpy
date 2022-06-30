@@ -1,9 +1,6 @@
 import random
-from pyfiglet import Figlet
 
 r1 = random.randint(1,100)
-preview_text = Figlet(font='slant')
-print(preview_text.renderText('GUENUMPY'))
 name = input("NickName: ")
 
 attempts = 0
